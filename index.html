@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Burger menu</title>
+<link href="style.css" rel="stylesheet"></head>
+<body>
+    <div class="menu">
+        <div class="wrapper">
+            <header class="menu__header header">
+                <button class="header__button button button--close"></button>
+                <img class="header__logo" src="img/menu/header/logo.svg" alt="">
+                <button class="header__button button button--search"></button>
+            </header>
+            <nav class="menu__navigation navigation">
+                <ul class="navigation__list">
+                    <li class="navigation__list-item"><a class="navigation__link" href="#">Ремонт техники</a></li>
+                    <li class="navigation__list-item"><a class="navigation__link" href="#">Услуги и сервисы</a></li>
+                    <li class="navigation__list-item"><a class="navigation__link" href="#">Корпоративным клиентам</a></li>
+                    <li class="navigation__list-item"><a class="navigation__link" href="#">Продавцам техники</a></li>
+                    <li class="navigation__list-item"><a class="navigation__link" href="#">Партнерам</a></li>
+                    <li class="navigation__list-item"><a class="navigation__link" href="#">Производителям</a></li>
+                    <li class="navigation__list-item"><a class="navigation__link" href="#">Наши сервисные центры</a></li>
+                    <li class="navigation__list-item"><a class="navigation__link" href="#">Контакты</a></li>
+                </ul>
+            </nav>
+            <footer class="menu__footer footer">
+                <div class="footer__activity activity">
+                    <button class="activity__button button button--phone">
+                    <button class="activity__button button button--chat">
+                    <button class="activity__button button button--profile">
+                </button></button></button></div>
+                <address class="footer__address address">
+                    <p class="address__email"><a href="mailto:mail@cps.com">mail@cps.com</a></p>
+                    <p class="address__phone">8 800 890 8900</p>
+                </address>
+                <div class="footer__locali locali">
+                    <label class="locali__option" for="changeLangRU">
+                        <input class="locali__input" type="radio" name="changeLang" id="changeLangRU" checked="checked">
+                        <span class="locali__name">RU</span>
+                    </label>
+                    <label class="locali__option" for="changeLangEN">
+                        <input class="locali__input" type="radio" name="changeLang" id="changeLangEN">
+                        <span class="locali__name">EN</span>
+                    </label>
+                    <label class="locali__option" for="changeLangCH">
+                        <input class="locali__input" type="radio" name="changeLang" id="changeLangCH">
+                        <span class="locali__name">CH</span>
+                    </label> 
+                </div>
+            </footer>
+        </div>
+    </div>
+<script type="text/javascript" src="./js/bundle.js"></script></body>
+</html>
